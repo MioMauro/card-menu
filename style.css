@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuContainer{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.menuBox{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 5px gray;
+    padding: 1rem 0;
+    border-radius: 10px;
+}
+
+.menuBox img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    width: 95%;
+    margin: 10px auto;
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#random{
+    box-shadow: 0 0 5px gray;
+    margin: 0 8px;
+    padding: 0 5px;
+}
+
